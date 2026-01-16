@@ -29,6 +29,7 @@ This repository demonstrates real‑world usage of **Django (backend)**, **HTML/
 
 * **HTML5** – Semantic and structured markup
 * **CSS3** – Modern styling and responsive design
+* **JavaScript (ES6+)** – Client-side interactivity, dynamic UI behavior, and enhanced user experience
 
 ### 🔹 Backend
 
@@ -129,7 +130,7 @@ python manage.py runserver
 ```
 
 Open browser and visit:
-👉 **[http://127.0.0.1:8000/](http://127.0.0.1:8000/)**
+👉 **[https://ai-universal-translator.onrender.com)**
 
 ---
 
@@ -137,9 +138,7 @@ Open browser and visit:
 
 > A clean, minimal, and professional UI designed for better user experience.
 
-*(Screenshots can be added here)*
-
----
+<img width="733" height="815" alt="image" src="https://github.com/user-attachments/assets/4149b439-fa14-4860-9cb2-a9c37efc150c" />
 
 ## 🔐 Security & Best Practices
 
@@ -155,10 +154,7 @@ Open browser and visit:
 This project is fully deployable on platforms like:
 
 * **Render**
-* **Railway**
-* **Heroku**
-* **VPS / Cloud Servers**
-
+ 
 Gunicorn & production settings supported.
 
 ---
@@ -193,7 +189,7 @@ This project is licensed under the **MIT License** – free to use, modify, and 
 
 **Srimanta Bag (Simu)**
 
-* GitHub: [DeveloperSimu](https://github.com/DeveloperSimu)
+* GitHub: [https://github.com/DeveloperSimu/AI-Universal-Translator.git)
 * Passionate about **AI, Django, Web Development & Cloud**
 
 ---
