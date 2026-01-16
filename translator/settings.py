@@ -26,9 +26,9 @@ SECRET_KEY = 'django-insecure-0ae&727e00#j-s=fy((3&9n$vxjv#sjg^1usix$@v5lqgg=&oo
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',         # For local development
-    '127.0.0.1',         # Also for local dev
-    'translator.onrender.com' # Your Render deployment domain
+    'localhost',
+    '127.0.0.1',
+    'ai-universal-translator.onrender.com'
 ]
 
 # Application definition
