@@ -25,8 +25,11 @@ SECRET_KEY = 'django-insecure-0ae&727e00#j-s=fy((3&9n$vxjv#sjg^1usix$@v5lqgg=&oo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    'localhost',         # For local development
+    '127.0.0.1',         # Also for local dev
+    'AI Universal Translator.onrender.com' # Your Render deployment domain
+]
 
 # Application definition
 
@@ -115,8 +118,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = 'static/'
-
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
