@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',         # For local development
     '127.0.0.1',         # Also for local dev
-    'AI Universal Translator.onrender.com' # Your Render deployment domain
+    'translator.onrender.com' # Your Render deployment domain
 ]
 
 # Application definition
